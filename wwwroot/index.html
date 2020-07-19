@@ -89,6 +89,35 @@
                 <div id="control_peak"></div>
             </el-main>
         </el-card>
+
+        <el-card shadow="hover" class="model_card">
+            <el-header class="model_header">
+                <span>武汉封城与全国疫情模拟</span>
+                <div class="city_selector">
+                    <el-select v-model="value" placeholder="请选择城市" filterable @change="selectChanged">
+                        <el-option-group
+                                v-for="group in options"
+                                :key="group.label"
+                                :label="group.label">
+                            <el-option
+                                    v-for="item in group.options"
+                                    :key="item.value"
+                                    :label="item.label"
+                                    :value="item.value">
+                            </el-option>
+                        </el-option-group>
+                    </el-select>
+                </div>
+            </el-header>
+            <el-main>
+                <!--                <div style="clear:both"></div>  &lt;!&ndash;清除浮动&ndash;&gt;-->
+
+                <div class="lines">
+                    <div id="model_overall"></div>
+                    <div id="model_city"></div>
+                </div>
+            </el-main>
+        </el-card>
     </div>
 
 
@@ -251,5 +280,6 @@
 <script src="script/main.js"></script>
 <script src="script/rumor.js"></script>
 <script src="script/spreadModel.js"></script>
+<script src="script/spread_majorCities.js"></script>
 </body>
 </html>

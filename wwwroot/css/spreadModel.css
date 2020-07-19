@@ -1,5 +1,6 @@
 .model_card {
     padding: 10px 0 0 0;
+    margin: 0 0 20px 0;
 }
 
 .model_header {
@@ -8,15 +9,25 @@
     height: 50px;
 }
 
-#control_prediction {
+#control_prediction, #model_overall {
     height: 600px;
     width: 800px;
     float: left;
 }
 
-#control_peak {
+#control_peak, #model_city {
     height: 600px;
     width: 800px;
     float: right;
+}
+
+.lines {
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+
+.city_selector{
+    float:right;
+    margin: 10px 578px 0 0;
 }
 

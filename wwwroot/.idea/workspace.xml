@@ -20,8 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b87a692-7546-4e6f-b66c-87fab43e1d21" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../COVID_19_Model/模型+模拟（21城市）+对应时间轴json/Harbin_model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COVID_19_Model/模型+模拟（21城市）+对应时间轴json/Harbin_real.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COVID_19_Model/模型+模拟（21城市）+对应时间轴json/Jingmen_model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COVID_19_Model/模型+模拟（21城市）+对应时间轴json/Nanchang_model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COVID_19_Model/模型+模拟（21城市）+对应时间轴json/Nanchang_real.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COVID_19_Model/模型+模拟（21城市）+对应时间轴json/date_model.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/model/mock/mocks/date_model.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/rumor.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/rumor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/spreadModel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/spreadModel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/spreadModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/spreadModel.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +41,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -55,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/model/wuhan_control" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/model/mock/reals" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -67,18 +76,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\public\model\mock\reals" />
+      <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\public\model\mock" />
       <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\public\model\wuhan_control" />
       <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\resources\static\js" />
       <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\public" />
-      <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\resources\data" />
-      <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\resources\static\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\public\model\mock\mocks" />
+      <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\public\model\mock\reals" />
       <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\script" />
       <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\public" />
       <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot" />
-      <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\script\tools" />
-      <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\script\map" />
     </key>
   </component>
   <component name="RunManager">
@@ -110,7 +119,7 @@
       <workItem from="1594610788911" duration="29053000" />
       <workItem from="1594861530184" duration="19223000" />
       <workItem from="1594901167356" duration="2532000" />
-      <workItem from="1595086150679" duration="13833000" />
+      <workItem from="1595086150679" duration="25818000" />
     </task>
     <servers />
   </component>
@@ -151,13 +160,13 @@
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="21" y="23" width="1419" height="793" key="dock-window-1/0.23.1440.812@0.23.1440.812" timestamp="1594301614315" />
-    <state x="936" y="330" key="run.anything.popup" timestamp="1595041429208">
+    <state x="936" y="330" key="run.anything.popup" timestamp="1595168587971">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="936" y="330" key="run.anything.popup/2560.348.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595041429208" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1595146805179">
+    <state x="936" y="330" key="run.anything.popup/2560.348.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595168587971" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1595172892479">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/2560.348.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595146805179" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/2560.348.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595172892479" />
   </component>
 </project>

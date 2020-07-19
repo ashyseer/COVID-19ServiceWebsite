@@ -1,5 +1,14 @@
 let model_vue = new Vue({
     el: '#task2',
+    data: {
+        options: [],
+        value: ''
+    },
+    methods: {
+        selectChanged: function (value) {
+            mock_city_chart.setOption(get_option(cities[value], real_data[value], []));
+        }
+    }
 });
 
 let wuhan_control_prediction = echarts.init(document.getElementById('control_prediction'));
@@ -178,5 +187,3 @@ async function modelInit() {
     await get_wuhan_control_data();
     await get_wuhan_control_prediction_oneday(0);
 }
-
-modelInit();

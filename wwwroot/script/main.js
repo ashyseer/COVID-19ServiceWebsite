@@ -16,6 +16,8 @@ let Main = {
                     break;
                 case("2"):
                     document.getElementById('task2').style.display = 'block';
+                    modelInit();
+                    init_mock();
                     break;
                 case("3"):
                     document.getElementById('task3').style.display = 'block';
