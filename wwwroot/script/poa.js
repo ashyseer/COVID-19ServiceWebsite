@@ -444,7 +444,7 @@ let option_official_wordCloud = {
         gridSize: 10,
         sizeRange: [20, 80],
         rotationStep: 45,
-        rotationRange: [-90, 90]
+        rotationRange: [-90, 90],
     },
     tooltip: {
         show: true,
@@ -470,7 +470,7 @@ let option_weibo_wordCloud = {
         gridSize: 10,
         sizeRange: [20, 80],
         rotationStep: 45,
-        rotationRange: [-90, 90]
+        rotationRange: [-90, 90],
     },
     tooltip: {
         show: true,
@@ -550,7 +550,6 @@ function poa_init() {
     weibo_senWave_series_positive_data.splice(0, weibo_senWave_series_positive_data.length);
     weibo_senWave_series_negative_data.splice(0, weibo_senWave_series_negative_data.length);
     weibo_wordCloud_series_data.splice(0, weibo_wordCloud_series_data.length);
-
 
     getOfficialData();
     getWeiboData();

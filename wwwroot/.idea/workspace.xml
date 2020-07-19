@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b87a692-7546-4e6f-b66c-87fab43e1d21" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../COVID_19_Model/Cases in actual.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../COVID_19_Model/date.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../COVID_19_Model/number of cases according to different dates of closure.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../COVID_19_Model/peak number of diagnoses according to different closure dates.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/static/img/病毒.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/static/img/病毒.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/poa.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/poa.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +111,7 @@
       <workItem from="1594610788911" duration="29053000" />
       <workItem from="1594861530184" duration="19223000" />
       <workItem from="1594901167356" duration="2532000" />
-      <workItem from="1595086150679" duration="10808000" />
+      <workItem from="1595086150679" duration="12660000" />
     </task>
     <servers />
   </component>
@@ -159,9 +156,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="936" y="330" key="run.anything.popup/2560.348.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595041429208" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1595122391748">
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1595146805179">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/2560.348.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595122391748" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/2560.348.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595146805179" />
   </component>
 </project>
