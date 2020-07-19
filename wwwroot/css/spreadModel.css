@@ -1,0 +1,22 @@
+.model_card {
+    padding: 10px 0 0 0;
+}
+
+.model_header {
+    text-align: left;
+    font-size: 20px;
+    height: 50px;
+}
+
+#control_prediction {
+    height: 600px;
+    width: 800px;
+    float: left;
+}
+
+#control_peak {
+    height: 600px;
+    width: 800px;
+    float: right;
+}
+

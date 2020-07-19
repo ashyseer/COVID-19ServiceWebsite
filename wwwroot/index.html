@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="css/covid_visualization.css">
     <link rel="stylesheet" href="css/poa.css">
     <link rel="stylesheet" href="css/rumor.css">
+    <link rel="stylesheet" href="css/spreadModel.css">
     <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+
 
     <!-- 引入Vue.js -->
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
@@ -78,7 +80,15 @@
 
     <!--第二部分-->
     <div class="mains" id="task2">
-        <p>我是第二部分</p>
+        <el-card shadow="hover" class="model_card">
+            <el-header class="model_header">
+                <span>武汉市内管控模拟</span>
+            </el-header>
+            <el-main>
+                <div id="control_prediction"></div>
+                <div id="control_peak"></div>
+            </el-main>
+        </el-card>
     </div>
 
 
@@ -240,5 +250,6 @@
 <script src="script/poa.js"></script>
 <script src="script/main.js"></script>
 <script src="script/rumor.js"></script>
+<script src="script/spreadModel.js"></script>
 </body>
 </html>
