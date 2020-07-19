@@ -8,17 +8,22 @@
     width: 900px;
 }
 
-.TF-IDF{
+.TF-IDF {
     height: 500px;
     margin: 0 0 20px 0;
 }
 
-.sen-index{
+.sen-index {
     height: 500px;
     margin: 0 0 20px 0;
 }
 
-.sen-wave{
+.sen-wave {
     height: 500px;
     margin: 0 0 20px 0;
+}
+
+.word-cloud {
+    height: 500px;
+    margin: 0;
 }

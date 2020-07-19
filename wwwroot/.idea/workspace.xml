@@ -21,8 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3b87a692-7546-4e6f-b66c-87fab43e1d21" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/poa.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/poa.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/rumor.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/rumor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/covid_visualization.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/covid_visualization.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/poa.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/poa.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +58,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/static/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -67,19 +69,19 @@
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\resources\static\js" />
+      <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\public" />
+      <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\resources\data" />
+      <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\resources\static\img" />
+      <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\script" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\script" />
       <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\public" />
       <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot" />
       <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\script\tools" />
       <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\script\map" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\public" />
-      <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\resources\data" />
-      <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\resources\static\img" />
-      <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\resources\static\js" />
-      <recent name="C:\Users\zhongyuan\Desktop\COVID-19-Service-Website\wwwroot\script" />
     </key>
   </component>
   <component name="RunManager">
@@ -111,6 +113,7 @@
       <workItem from="1594610788911" duration="29053000" />
       <workItem from="1594861530184" duration="19223000" />
       <workItem from="1594901167356" duration="2532000" />
+      <workItem from="1595086150679" duration="3293000" />
     </task>
     <servers />
   </component>

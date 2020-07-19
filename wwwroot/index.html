@@ -27,6 +27,8 @@
     <script src="resources/static/js/china.js"></script>
     <!-- 引入水滴图 -->
     <script src="resources/static/js/echarts-liquidfill.min.js"></script>
+    <!-- 引入词云图 -->
+    <script src="resources/static/js/echarts-wordcloud.min.js"></script>
 </head>
 <body>
 <div id="system" class="container">
@@ -86,12 +88,14 @@
             <div id="official_rank" class="TF-IDF"></div>   <!--TD-IDF排行图-->
             <div id="official_senIndex" class="sen-index"></div>    <!--情感指数图-->
             <div id="official_senWave" class="sen-wave"></div>  <!--情感波动图-->
+            <div id="official_wordCloud" class="word-cloud"></div>  <!--词云图-->
         </div>
 
         <div class="poa_right">
             <div id="weibo_rank" class="TF-IDF"></div>
             <div id="weibo_senIndex" class="sen-index"></div>
             <div id="weibo_senWave" class="sen-wave"></div>
+            <div id="weibo_wordCloud" class="word-cloud"></div>
         </div>
     </div>
 

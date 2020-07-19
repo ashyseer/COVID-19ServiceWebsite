@@ -106,24 +106,6 @@ let getMapAndPieData = function (key, dateIndex) {
             // 将后端返回数据进行填充
             response.data.forEach(province => {
                 let currentValue = 0;
-                // switch (key) {
-                //     case('累计确诊'):
-                //         value = province.confirmedCount;
-                //         break;
-                //     case('累计死亡'):
-                //         value = province.deadCount;
-                //         break;
-                //     case('累计治愈'):
-                //         value = province.curedCount;
-                //         break;
-                //     case('当前确诊'):
-                //         if (province.currentConfirmedCount === 0) {
-                //             value = province.confirmedCount - province.deadCount - province.curedCount;
-                //         } else {
-                //             value = province.currentConfirmedCount;
-                //         }
-                //         break;
-                // }
 
                 if (province.currentConfirmedCount === 0) {
                     currentValue = province.confirmedCount - province.deadCount - province.curedCount;

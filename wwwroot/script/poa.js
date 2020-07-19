@@ -4,6 +4,8 @@ let official_senIndex = echarts.init(document.getElementById('official_senIndex'
 let weibo_senIndex = echarts.init(document.getElementById('weibo_senIndex'));
 let official_senWave = echarts.init(document.getElementById('official_senWave'));
 let weibo_senWave = echarts.init(document.getElementById('weibo_senWave'));
+let official_wordCloud = echarts.init(document.getElementById('official_wordCloud'));
+let weibo_wordCloud = echarts.init(document.getElementById('weibo_wordCloud'));
 
 // 数据
 let localPath = '../public';
@@ -15,6 +17,7 @@ let official_senIndex_legend_data = [];
 let official_senWave_series_positive_data = [];
 let official_senWave_series_negative_data = [];
 let official_senWave_legend_data = [];
+let official_wordCloud_series_data = [];
 // 微博数据
 let weibo_rank_legend_data = [];
 let weibo_rank_series_data = [];
@@ -23,6 +26,7 @@ let weibo_senIndex_legend_data = [];
 let weibo_senWave_series_positive_data = [];
 let weibo_senWave_series_negative_data = [];
 let weibo_senWave_legend_data = [];
+let weibo_wordCloud_series_data = [];
 
 
 let getOfficialData = function () {
@@ -74,6 +78,18 @@ let getOfficialData = function () {
 
             official_senWave.setOption(option_official_senWave);
         });
+
+    url = localPath + '/official_wordCloud_data.json';
+    axios.get(url)
+        .then(function (response) {
+            let data = response.data;
+
+            for (let i = 0; i < data.series_data.length; i++) {
+                official_wordCloud_series_data.push(data.series_data[i]);
+            }
+
+            official_wordCloud.setOption(option_official_wordCloud);
+        })
 };
 
 let getWeiboData = function () {
@@ -124,6 +140,18 @@ let getWeiboData = function () {
 
             weibo_senWave.setOption(option_weibo_senWave);
         });
+
+    url = localPath + '/weibo_wordCloud_data.json';
+    axios.get(url)
+        .then(function (response) {
+            let data = response.data;
+
+            for (let i = 0; i < data.series_data.length; i++) {
+                weibo_wordCloud_series_data.push(data.series_data[i]);
+            }
+
+            weibo_wordCloud.setOption(option_weibo_wordCloud);
+        })
 };
 
 let option_official_rank = {
@@ -402,6 +430,58 @@ let option_weibo_senWave = {
     color: ['#F4A460', '#A52A2A']
 };
 
+let option_official_wordCloud = {
+    title: {
+        text: '疫情防控平台词云统计',
+        subtext: 'January 26 - February 20',
+        left: 'left'
+    },
+    series: {
+        type: 'wordCloud',
+        shape: 'circle',
+        data: official_wordCloud_series_data,
+        drawOutOfBound: false,
+        gridSize: 10,
+        sizeRange: [20, 80],
+        rotationStep: 45,
+        rotationRange: [-90, 90]
+    },
+    tooltip: {
+        show: true,
+        trigger: "item",
+        triggerOn: "mousemove|click",
+        axisPointer: {
+            "type": "line"
+        },
+    },
+};
+
+let option_weibo_wordCloud = {
+    title: {
+        text: '微博词云统计',
+        subtext: 'January 1 - February 20',
+        left: 'right'
+    },
+    series: {
+        type: 'wordCloud',
+        shape: 'circle',
+        data: weibo_wordCloud_series_data,
+        drawOutOfBound: false,
+        gridSize: 10,
+        sizeRange: [20, 80],
+        rotationStep: 45,
+        rotationRange: [-90, 90]
+    },
+    tooltip: {
+        show: true,
+        trigger: "item",
+        triggerOn: "mousemove|click",
+        axisPointer: {
+            "type": "line"
+        },
+    },
+};
+
 
 // 事件
 official_rank.on('dataZoom', function (params) {
@@ -461,6 +541,7 @@ function poa_init() {
     official_senWave_legend_data.splice(0, official_senWave_legend_data.length);
     official_senWave_series_positive_data.splice(0, official_senWave_series_positive_data.length);
     official_senWave_series_negative_data.splice(0, official_senWave_series_negative_data.length);
+    official_wordCloud_series_data.splice(0, official_wordCloud_series_data.length);
     weibo_rank_legend_data.splice(0, weibo_rank_legend_data.length);
     weibo_rank_series_data.splice(0, weibo_rank_series_data.length);
     weibo_senIndex_legend_data.splice(0, weibo_senIndex_legend_data.length);
@@ -468,6 +549,8 @@ function poa_init() {
     weibo_senWave_legend_data.splice(0, weibo_senWave_legend_data.length);
     weibo_senWave_series_positive_data.splice(0, weibo_senWave_series_positive_data.length);
     weibo_senWave_series_negative_data.splice(0, weibo_senWave_series_negative_data.length);
+    weibo_wordCloud_series_data.splice(0, weibo_wordCloud_series_data.length);
+
 
     getOfficialData();
     getWeiboData();
