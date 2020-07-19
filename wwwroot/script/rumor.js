@@ -14,7 +14,8 @@ let vue = new Vue({
                 title: [
                     {required: true, message: '请输入标题', trigger: 'blur'},
                 ],
-                rumorId: [{required: true, message: 'ID 不能为空', trigger: 'blur'},
+                rumorId: [
+                    {required: true, message: 'ID 不能为空', trigger: 'blur'},
                     {type: 'number', message: 'ID 必须为数字值'}
                 ],
                 mainSummary: [
