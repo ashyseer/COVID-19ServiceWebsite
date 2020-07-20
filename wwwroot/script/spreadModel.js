@@ -7,6 +7,8 @@ let model_vue = new Vue({
     methods: {
         selectChanged: function (value) {
             mock_city_chart.setOption(get_option(cities[value], real_data[value], []));
+            // console.log(option_mock_overall.baseOption.timeline.currentIndex);
+            // get_mock_data_oneday(option_mock_overall.baseOption.timeline.currentIndex,value)
         }
     }
 });
