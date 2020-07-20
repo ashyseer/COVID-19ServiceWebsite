@@ -10,6 +10,8 @@ let mock_basic_path = '../public/model/mock';
 let mock_subtitle = [];
 let timeline_date = [];
 
+let mock_timeline_index = 0;
+
 //全国
 let mock_overall_oneday = [];
 let mock_overall = [];
@@ -210,6 +212,8 @@ function get_option(cityName, real_data, mock_data) {
 // 事件
 mock_overall_chart.on('timelinechanged', function (timelineIndex) {
     let arrIndex = parseInt(timelineIndex.currentIndex);
+    mock_timeline_index = arrIndex;
+
     if (model_vue.value === '') {
         get_mock_data_oneday(arrIndex, 0);
     } else {

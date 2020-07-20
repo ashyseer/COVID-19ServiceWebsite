@@ -20,14 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b87a692-7546-4e6f-b66c-87fab43e1d21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/model/mock/mocks/beijing_model.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../COVID_19_Model/new_edit_模型+模拟（城市减少）+对应时间轴json/Beijing_model.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../COVID_19_Model/new_edit_模型+模拟（城市减少）+对应时间轴json/Harbin_real.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../COVID_19_Model/new_edit_模型+模拟（城市减少）+对应时间轴json/Nanchang_real.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/model/mock/mocks/date_model.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/model/mock/mocks/date_timeline.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script/spreadModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/spreadModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/spread_majorCities.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/spread_majorCities.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +110,7 @@
       <workItem from="1594610788911" duration="29053000" />
       <workItem from="1594861530184" duration="19223000" />
       <workItem from="1594901167356" duration="2532000" />
-      <workItem from="1595086150679" duration="31028000" />
+      <workItem from="1595086150679" duration="31560000" />
     </task>
     <servers />
   </component>
