@@ -2,7 +2,7 @@
 
 # COVID-19-Service-Website
 
-# ![GitHub language count](https://img.shields.io/github/languages/count/ashyseer/COVID-19-Service-Website?color=orange)  ![GitHub](https://img.shields.io/github/license/ashyseer/COVID-19-Service-Website?color=blueviolet)  ![GitHub repo size](https://img.shields.io/github/repo-size/ashyseer/COVID-19-Service-Website)  ![GitHub contributors](https://img.shields.io/github/contributors/ashyseer/COVID-19-Service-Website)  ![GitHub last commit](https://img.shields.io/github/last-commit/ashyseer/COVID-19-Service-Website)
+![GitHub language count](https://img.shields.io/github/languages/count/ashyseer/COVID-19-Service-Website?color=orange)  ![GitHub](https://img.shields.io/github/license/ashyseer/COVID-19-Service-Website?color=blueviolet)  ![GitHub repo size](https://img.shields.io/github/repo-size/ashyseer/COVID-19-Service-Website)  ![GitHub contributors](https://img.shields.io/github/contributors/ashyseer/COVID-19-Service-Website)  ![GitHub last commit](https://img.shields.io/github/last-commit/ashyseer/COVID-19-Service-Website)
 
 ## 系统环境
 
