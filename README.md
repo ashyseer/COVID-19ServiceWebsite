@@ -1,8 +1,6 @@
 
 
-# COVID-19-Service-Website
-
-![GitHub top language](https://img.shields.io/github/languages/top/ashyseer/COVID-19-Service-Website?color=green) ![GitHub language count](https://img.shields.io/github/languages/count/ashyseer/COVID-19-Service-Website?color=orange)  ![GitHub](https://img.shields.io/github/license/ashyseer/COVID-19-Service-Website?color=blueviolet)  ![GitHub repo size](https://img.shields.io/github/repo-size/ashyseer/COVID-19-Service-Website)  ![GitHub contributors](https://img.shields.io/github/contributors/ashyseer/COVID-19-Service-Website)  ![GitHub last commit](https://img.shields.io/github/last-commit/ashyseer/COVID-19-Service-Website)
+# COVID-19-Service-Website![GitHub language count](https://img.shields.io/github/languages/count/ashyseer/COVID-19-Service-Website?color=orange)  ![GitHub](https://img.shields.io/github/license/ashyseer/COVID-19-Service-Website?color=blueviolet)  ![GitHub repo size](https://img.shields.io/github/repo-size/ashyseer/COVID-19-Service-Website)  ![GitHub contributors](https://img.shields.io/github/contributors/ashyseer/COVID-19-Service-Website)  ![GitHub last commit](https://img.shields.io/github/last-commit/ashyseer/COVID-19-Service-Website)
 
 ## 系统环境
 
@@ -22,8 +20,16 @@
 
 ## 项目说明
 
-- 本项目为武汉大学第三学期《计算社会学与社会地理计算》课程大作业仓库，在《GIS可视化》课程上介绍的内容只是此项目的一部分功能，并由仓库拥有者本人（钟源）设计开发。
-- 《GIS可视化》课程上介绍的部分已移至[新的仓库](https://github.com/ashyseer/COVIDView)。
+- 本项目为武汉大学第三学期《计算社会学与社会地理计算》课程大作业仓库，在《GIS可视化》课程上介绍的内容只是此项目的一部分功能，并由仓库拥有者本人（钟源）设计开发；
+- 《GIS可视化》课程上介绍的部分已移至[新的仓库](https://github.com/ashyseer/COVIDView)；
+- 开发所用数据全部存至 Data 目录下。
+
+## 合作开发
+
+- [XiXi](https://github.com/ashyseer)
+- [Peter Sheng](https://github.com/PeterSH6)
+- [Hopesprite](https://github.com/Hopesprite)
+- [wsw_stack](https://github.com/wsw-stack)
 
 ## 更多文档与资源
 
